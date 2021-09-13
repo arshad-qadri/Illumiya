@@ -1,0 +1,72 @@
+.topGames{
+    /* width: 70rem; */
+}
+.topGames_main{
+   
+    max-width: 30rem;
+    column-gap: 1rem;
+    padding: 1rem;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+
+}
+.topGames_main h1{
+    color: orange;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.topGames_main h3{
+    font-size: 1.3rem;
+}
+.topGames_main p{
+    font-size: .9rem;
+}
+
+.topGames_main img{
+    width: 9rem;
+    height: 9rem;
+}
+.topGames_main .imgS{
+    border-radius: 26px;
+    transform: perspective(500px) rotateY(13deg);
+}
+.topGames_main button{
+    position: absolute;
+    color: #fff;
+    bottom: -15px;
+    left: 11rem;
+}
+
+.topGames_main.one::after,
+.topGames_main.two::after,
+.topGames_main.three::after,
+.topGames_main.four::after{
+    /* display: none !important; */
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+     background: radial-gradient(89.85% 73.57% at 84.21% 75.36%, rgba(0, 0, 0, 0.23) 0%, rgba(0, 0, 0, 0) 86.18%), radial-gradient(63.69% 56.22% at 25.75% 17.94%, rgba(255, 255, 255, 0.177) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%), #632CAF;
+    border-radius: 37px;
+    z-index: -1;
+}
+.topGames_main.one::after,.topGames_main.two::after{
+    transform: perspective(500px) rotateX(-10deg);
+
+}
+.topGames_main.three::after,
+.topGames_main.four::after{
+    transform: perspective(500px) rotateX(10deg);
+}
+
+@media only screen and (max-width: 520px) {
+    .topGames_main img{
+        width: 5rem;
+        height: 5rem;
+    }
+    .topGames_main button{
+        
+        left: 7rem;
+    }
+  }

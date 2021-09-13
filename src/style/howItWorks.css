@@ -1,0 +1,67 @@
+.howItWorks{
+    /* width: 72rem;
+    height: 30rem; */
+ 
+ 
+}
+.howItWorks h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 62px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    text-shadow: 0px 16px 15px rgba(0, 0, 0, 0.25);
+}
+.howItWorks_main{
+    position: relative;
+    width: 14rem;
+    text-align: left; 
+}
+.howItWorks .steps{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; */
+    margin-top: 2rem;
+    /* column-gap: 4rem; */
+    /* display: none; */
+
+}
+
+
+.howItWorks_main .num{
+position: absolute;
+width: 80px;
+height: 80px;
+/* background: #FFF; */
+top: -80px;
+left: 0px;
+border-radius: 10px;
+padding-top: 23px;
+padding-left: 5px;
+background: linear-gradient(0deg, #FFD300, #FFD300), radial-gradient(63.69% 56.22% at 25.75% 17.94%, rgba(255, 255, 255, 0.177) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%), #632CAF;
+box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.3);
+border-radius: 18px;
+
+
+}
+.howItWorks_main .num h1{
+color: blue;
+font-size: 3rem;
+
+
+}
+.howItWorks_main .text h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.ratio{
+    max-width: 44rem !important;
+    border-radius: 5rem !important;
+    border: 15px solid #fff;
+    overflow: hidden;
+    margin-top: 4rem;
+    transform: perspective(500px) rotateX(-12deg) rotateY(5deg);
+}
